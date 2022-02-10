@@ -1,3 +1,53 @@
-* {
-  outline: none;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  height: 63.4rem;
+  border-radius: 0 0 0 10rem;
+}
+
+.wrapper {
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.intro {
+  padding-top: 8.4rem;
+}
+
+.heading {
+  max-width: 24rem;
+}
+
+.link {
+  display: block;
+}
+
+.social {
+  gap: 2rem;
+  align-items: center;
+}
+
+.header .wrapper {
+  justify-content: space-between;
+}
+
+.intro .wrapper {
+  flex-direction: column;
+  gap: 1.2rem;
 }

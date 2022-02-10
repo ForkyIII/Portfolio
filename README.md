@@ -1,24 +1,21 @@
 
-<!-- Feel Free to Add, Update, Delete Any Section you find needs so -->
+# Portfolio
 
-# Project Name
+> Portfolio Website made using Vanilla HTML5, CSS3, and linters.
 
-> One paragraph statement about the project.
+## Screenshot
 
+![screenshot](./images/app_screenshot.png)
 
-| *Additional description about the project and its features.*
+| *Screenshot of the intro section of the portfolio [Desktop version]*
 
 ## Built With
 
-- Languages: _**HTML, CSS**_
-- Frameworks: _**N/A**_
-- Technologies used: _**GIT, GITHUB, LINTERS**_
-
+- Languages: ***HTML, CSS***
+- Frameworks: ***N/A***
+- Technologies used: ***GIT, GITHUB, LINTERS***
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 To get a local copy up and running follow these simple example steps.
 
@@ -32,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 - **Open** the terminal.
 - **Run** `cd \path\to\where\you\want\your\local\copy`
 - **Clone** the repo
-  1. **Run** `git clone git@github.com:IsraMarvin/README.git`
+  1. **Run** `git clone git@github.com:IsaMarvin/Portfolio.git`
   2. **Run** `cd README/`
 
 ### Install
@@ -74,12 +71,10 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- Only Change Username for Different Accounts -->
 
-
  Platform | Badge |
  --- | --- |
  **GitHub**  | [@IsaMarvin](https://github.com/IsaMarvin)
  **Linkdin** | [@IsaMarvin](https://linkedin.com/in/IsaMarvin)
-
 
 ## 🤝 Contributing
 
