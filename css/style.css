@@ -1,9 +1,10 @@
 :root {
-  --dark: #2f303a;
-  --light-black: #26262e;
-  --accent: #1762a7;
+  --dark: #172b4d;
+  --light-dark: #344563;
+  --accent: #7f8cff;
   --accent-hover: #2180d8;
-  --light: #fff;
+  --light: #e5e5e5;
+  --white: #fff;
   --light-hover: #adadad;
   --blue: #3856b0;
   --red: #b038a0;
@@ -14,6 +15,44 @@
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
+html {
+  background-color: var(--light);
+}
+
+body {
+  background-color: var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
 a {
   cursor: pointer;
+}
+
+.intro {
+  background-image: url(../images/header-bg.svg);
+  background-size: 100%;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  color: var(--dark);
+}
+
+.description {
+  color: var(--light-dark);
+}
+
+.link {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.intro .wrapper > *:not(:first-child) {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
