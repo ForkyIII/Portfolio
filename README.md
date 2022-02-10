@@ -5,7 +5,7 @@
 
 ## Screenshot
 
-![screenshot]()
+![screenshot](./images/app_screenshot.png)
 
 | *Screenshot of the intro section of the portfolio [Desktop version]*
 
