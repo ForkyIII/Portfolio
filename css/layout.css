@@ -7,7 +7,6 @@
 }
 
 body {
-  max-width: 37.5rem;
   margin: auto;
   height: 63.4rem;
   border-radius: 0 0 0 10rem;
@@ -48,6 +47,7 @@ body {
   justify-content: space-between;
 }
 
-.intro .wrapper > * {
-  margin-bottom: 1.2rem;
+.intro .wrapper {
+  flex-direction: column;
+  gap: 1.2rem;
 }
